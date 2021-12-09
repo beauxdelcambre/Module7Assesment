@@ -47,7 +47,7 @@ function pangrams(s) {
     result = array[i];
     } 
   }
-  return result;
+  return result.length;
 }
 console.log(find_longest_word("Whats up longword"));
 // O(log n) - Logarithmic Time
