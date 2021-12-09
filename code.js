@@ -50,4 +50,4 @@ function pangrams(s) {
   return result.length;
 }
 console.log(find_longest_word("Whats up longword"));
-// O(log n) - Logarithmic Time
+//O(n) - Linear Time
